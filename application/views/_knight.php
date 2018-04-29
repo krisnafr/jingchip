@@ -25,7 +25,6 @@
         <script type="text/javascript" src="assets/js/jquery.isotope.js"></script>
         <script type="text/javascript" src="assets/js/wow.js"></script>
         <script type="text/javascript" src="assets/js/classie.js"></script>
-        <script src="contactform/contactform.js"></script>
 
         <!-- =======================================================
     Theme Name: Knight

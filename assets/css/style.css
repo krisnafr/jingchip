@@ -179,7 +179,7 @@ p{
     border-bottom:1px solid #dddddd;
     box-shadow:0 4px 5px -3px #ececec;
     position:relative;
-    background:#fff;
+    background:#FFEE02;
 }
 .main-nav{
     text-align:center;
@@ -404,7 +404,7 @@ img {
 .client-part{
     background:url(../img/section-bg1.jpg) center center no-repeat;
     background-size:cover;
-    padding:55px 0;
+    padding:300px 0;
     text-align:center;
 }
 .client-part-haead{

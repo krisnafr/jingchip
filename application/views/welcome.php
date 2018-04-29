@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, maximum-scale=1">
 
-        <title>Welcome - JING, jagung emping dengan varian rasa</title>
+        <title>Welcome - JING, jagung emping aneka rasa</title>
         <link rel="icon" href="assets/favicon.png" type="image/png">
         <link rel="shortcut icon" href="assets/favicon.ico" type="img/x-icon">
 
@@ -18,13 +18,6 @@
         <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
         <link href="assets/css/animate.css" rel="stylesheet" type="text/css">
 
-        <!-- =======================================================
-    Theme Name: Knight
-    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-        ======================================================= -->
-
     </head>
 
     <body>
@@ -32,22 +25,20 @@
             <!--header-start-->
             <div class="container">
                 <h1 class="animated fadeInDown delay-07s">WELCOME TO JING CHIPS</h1>
+                <h1 class="animated fadeInDown delay-07s">JING, jagung emping aneka rasa</h1>
                 <figure class="logo animated fadeInDown delay-07s">
                     <a href="#"><img src="assets/img/logo.png" alt=""></a>
                 </figure>
 
                 <ul class="we-create animated fadeInUp delay-1s">
-                    <li>Enak banget jing! cobain deh!</li>
+                    <li>Gak ngeJing, gak gaul!</li>
                 </ul>
-                <a class="link animated fadeInUp delay-1s servicelink" href="#service">cobain</a>
+                <a class="link animated fadeInUp delay-1s servicelink" href="tentang">mulai</a>
             </div>
         </header>
         <!--header-end-->
         <footer class="footer">
             <div class="container">
-<!--			<div class="footer-logo"><a href="#"><img src="assets/img/footer-logo.png" alt=""></a></div>
-                    <span class="copyright">&copy; Knight Theme. All Rights Reserved</span>
-                    <div class="credits">-->
                 <!--
 All the links in the footer should remain intact.
 You can delete the links only if you purchased the pro version.
