@@ -45,10 +45,10 @@
 
 @media only screen and (max-width: 767px) {
 	/****Mobile Landscape 480 Container 100% ****/
-	body{ font-size:12px;}
-	h2{ font-size:26px;}
-	h3{ font-size:14px;}
-	h6{ font-size:16px; margin-bottom:40px;}
+	body{ font-size:16px;}
+	h2{ font-size:30px;}
+	h3{ font-size:18px;}
+	h6{ font-size:20px; margin-bottom:40px;}
 	p{ line-height:18px;}
 	.service-list{ font-size:12px; margin-bottom:20px;}
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
@@ -63,7 +63,7 @@
 	.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
 	.team-leader-box:nth-of-type(3n){ margin:0 auto}
 	.res-nav_click{ display:block;}
-	.featured-work{ font-size:12px; margin-top:30px;}
+	.featured-work{ font-size:16px; margin-top:30px;}
 	.featured-box{ font-size:12px;}
 	.featured-box p{ line-height:18px; }
 	.c-logo-part ul a{ margin-bottom:5px;}

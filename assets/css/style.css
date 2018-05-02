@@ -124,7 +124,7 @@ p{
 .we-create li{
     display:inline-block;
     font-family: 'Montserrat',sans-serif;
-    font-size:14px;
+    font-size:20px;
     color: #111;
     text-transform: uppercase;
     font-weight: 400;
@@ -242,13 +242,14 @@ p{
     overflow:hidden;	
 }
 .main-section.alabaster{
-    background:#fafafa;
+    /*background:#fafafa;*/
+    background:#fff;
 }
 
 /* Featured Work
 ---------------------------------*/
 .featured-work{
-    font-size:14px;
+    font-size:16px;
 }
 .featured-work h2{
     text-align:left;
@@ -256,7 +257,7 @@ p{
 .featured-box{
     padding:0 0 0 0;
     margin-bottom:25px;
-    font-size:14px;
+    font-size:16px;
 }
 .featured-box h3{
     margin-bottom:5px;
@@ -266,6 +267,7 @@ p{
 }
 .featured-work p.padding-b{
     padding-bottom:35px;
+    text-align: justify;
 }
 .featured-box-col1{
     width:60px;

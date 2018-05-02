@@ -26,17 +26,17 @@
         
     </head>
     <body>
-        <section class="main-section client-part" id="client">
+        <section class="main-section client-part" id="top">
         </section>
         <nav class="main-nav-outer" id="test">
             <!--main-nav-start-->
             <div class="container">
                 <ul class="main-nav">
-                    <li><a href="#header">Tentang JING!</a></li>
+                    <li><a href="#">Tentang JING!</a></li>
 <!--                    <li><a href="#service">Services</a></li>
                     <li><a href="#Portfolio">Portfolio</a></li>-->
-                    <li class="small-logo"><a href="#header"><img src="assets/img/small-logo.png" alt=""></a></li>
-                    <li><a href="#client">Jadi Mitra JING!</a></li>
+                    <li class="small-logo"><a href="#top"><img src="assets/img/small-logo.png" alt="logo-jing-kecil"></a></li>
+                    <li><a href="#">Jadi Mitra JING!</a></li>
 <!--                    <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>-->
                 </ul>
