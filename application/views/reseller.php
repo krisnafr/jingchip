@@ -59,7 +59,7 @@
                     </div><br>
                     <p class="featured-work">Dan pengalaman lain yang bikin hidup kamu nggak lebih baik dari sekarang.</p>
                     <p class="featured-work">Tenang, dengan mendaftar jadi Mitra JING, kamu nggak akan ngerasain hal itu</p>
-                    <a id="daftarButton" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" target="_blank" rel="noopener">daftar sekarang</a>
+                    <a onClick="klikDaftar()" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" target="_blank" rel="noopener">daftar sekarang</a>
                 </center>
             </div>
         </section>
@@ -118,7 +118,7 @@
                     </div>
                     <br>
 
-                    <a id="daftarButton" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" target="_blank" rel="noopener">daftar sekarang</a>
+                    <a onClick="klikDaftar()" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" target="_blank" rel="noopener">daftar sekarang</a>
                 </center>
             </div>
         </section>
@@ -142,7 +142,7 @@
                                 <li>Gratis Ebook 5 cara jitu menaikkan profit</li>
                             </ul>
                             <br><br><br><br>
-                            <a id="daftarButton" style="background: #6B3F24" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" rel="noopener" target="_blank">daftar sebagai prajurit</a>
+                            <a onClick="klikDaftar()" style="background: #6B3F24" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" rel="noopener" target="_blank">daftar sebagai prajurit</a>
                         </div>
                         <div class="col-lg-4 col-sm-4 featured-work">
                             <h1 style="background: #81CA70; color: white;">KAPTEN</h1>
@@ -153,7 +153,7 @@
                                 <li>Gratis Ebook 5 cara jitu menaikkan profit</li>
                             </ul>
                             <br><br><br><br>
-                            <a id="daftarButton" style="background: #81CA70" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" rel="noopener" target="_blank">daftar sebagai kapten</a>
+                            <a onClick="klikDaftar()" style="background: #81CA70" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" rel="noopener" target="_blank">daftar sebagai kapten</a>
                         </div>
                         <div class="col-lg-4 col-sm-4 featured-work">
                             <h1 style="background: #067BC1; color: white;">JENDRAL</h1>
@@ -166,7 +166,7 @@
                                 <li>Dipromosikan langsung di berbagai media Jing Chips</li>
                                 <li>Menjadi satu – satunya JENDRAL dalam 1 wilayah (kota)</li>
                             </ul>
-                            <a id="daftarButton" style="background: #067BC1" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" rel="noopener" target="_blank">daftar sebagai jendral</a>
+                            <a onClick="klikDaftar()" style="background: #067BC1" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" rel="noopener" target="_blank">daftar sebagai jendral</a>
                         </div>
                     </div>
 
@@ -189,7 +189,7 @@
                         <p><b>Q:</b> Untuk pengirimannya gimana ?<br><b>A:</b> Jangan khawatir, kita akan mencarikan expedisi termurah ke daerah kamu. Sehingga kamu tidak akan terlalu terbebani dengan harga ongkir 🙂</p>
                         <p><b>Q:</b> Kalau ada yang ambil dari saya untuk dijual lagi, apakah bisa ?<br><b>A:</b> Bisa banget, dan kami akan merekomendasikan kamu untuk menjadi kapten atau pun Jendral di suatu wilayah 🙂</p>
                     </div>
-                    <a id="daftarButton" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" rel="noopener" target="_blank">daftar sekarang</a>
+                    <a onClick="klikDaftar()" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" rel="noopener" target="_blank">daftar sekarang</a>
                 </center>
             </div>
         </section>
@@ -222,15 +222,16 @@
                             <li>Customer service kami akan menghubungi anda</li>
                         </ol>
                     </div>
-                    <a id="daftarButton" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" rel="noopener" target="_blank">daftar sekarang</a>
+                    <a onClick="klikDaftar()" class="link servicelink" href="https://goo.gl/forms/nQQ472eqb2RiPStf1" rel="noopener" target="_blank">daftar sekarang</a>
                 </center>
             </div>
         </section>
 
-        <script type="text/javascript">
-            $('#$daftarButton').click(function () {
+        <script>
+            function klikDaftar() {
                 fbq('track', 'InitiateCheckout');
             }
+            ;
         </script>
 
     </body>

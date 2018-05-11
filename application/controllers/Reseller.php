@@ -70,7 +70,7 @@ class Reseller extends CI_Controller {
         if ($this->form_validation->run() == FALSE) {
             $this->load->view('daftar');
         } else {
-            echo $this->security->xss_clean($data);
+            $this->security->xss_clean($data);
             $this->daftar_model->create($data, 'reseller');
             redirect('reseller/lihat');
         }
@@ -132,9 +132,10 @@ class Reseller extends CI_Controller {
         $this->form_validation->set_rules('ig', 'Instagram', 'trim|alpha_dash|max_length[50]');
 
         if ($this->form_validation->run() == FALSE) {
-            $this->load->view('edit');
+//            $this->load->view('edit/' . $id);
+            redirect('reseller/edit/' . $id);
         } else {
-            echo $this->security->xss_clean($data);
+            $this->security->xss_clean($data);
             $this->daftar_model->update($where, $data, 'reseller');
             redirect('reseller/lihat');
         }
