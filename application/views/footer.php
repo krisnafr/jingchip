@@ -1,14 +1,5 @@
 <!doctype html>
-<html lang="id">
-    <head>
-        <meta property="og:title" content="JING" >
-        <meta property="og:type" content="makanan.jajanan" >
-        
-        <link rel="preload" href="assets/css/style_1.min.css" as="style" onload="this.onload = null;this.rel = 'stylesheet'">
-        <link rel="preload" href="assets/css/fontawesome-all.min.css" as="style" onload="this.onload = null;this.rel = 'stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/style_1.min.css"></noscript>
-        <noscript><link rel="stylesheet" href="assets/css/fontawesome-all.min.css"></noscript>
-    </head>
+<html>
     <body>
         <footer id="footer">
             <div class="footer-top">

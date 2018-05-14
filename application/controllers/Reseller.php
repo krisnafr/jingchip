@@ -13,7 +13,9 @@ class Reseller extends CI_Controller {
     }
 
     function index() {
-        $this->load->view('header');
+        $data['title'] = 'Reseller - JING, jagung emping aneka rasa';
+        $data['description'] = 'Reseller - JING, emping jagung aneka rasa dengan harga terjangkau';
+        $this->load->view('header', $data);
         $this->load->view('reseller');
         $this->load->view('footer');
     }

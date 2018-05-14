@@ -2,11 +2,14 @@
 <html lang="id">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Header - JING, emping jagung aneka rasa dengan harga terjangkau">
-        <meta name="viewport" content="width=device-width, maximum-scale=2">
-
+        <meta name="description" content="<?php echo $description ?>">
+        <meta name="viewport" content="width=device-width, maximum-scale=5">
+        <meta name="theme-color" content="#FFEE02">
+        
         <meta property="og:title" content="JING" >
         <meta property="og:type" content="makanan.jajanan" >
+        
+        <title><?php echo $title ?></title>
 
         <!-- Facebook Pixel Code -->
         <script>
@@ -56,6 +59,18 @@
     <noscript><link rel="stylesheet" href="assets/css/fontawesome-all.min.css"></noscript>
     <noscript><link rel="stylesheet" href="assets/css/responsive.min.css"></noscript>
     <noscript><link rel="stylesheet" href="assets/css/animate.min.css"></noscript>
+
+    <link rel="preload" href="assets/css/style_1.min.css" as="style" onload="this.onload = null;this.rel = 'stylesheet'">
+    <link rel="preload" href="assets/css/fontawesome-all.min.css" as="style" onload="this.onload = null;this.rel = 'stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/style_1.min.css"></noscript>
+    <noscript><link rel="stylesheet" href="assets/css/fontawesome-all.min.css"></noscript>
+
+    <link rel="preload" href="assets/lib/animate/animate.min.css" as="style" onload="this.onload = null;this.rel = 'stylesheet'">
+    <link rel="preload" href="assets/lib/owlcarousel/assets/owl.carousel.min.css" as="style" onload="this.onload = null;this.rel = 'stylesheet'">
+    <link rel="preload" href="assets/css/style_1.min.css" as="style" onload="this.onload = null;this.rel = 'stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/lib/animate/animate.min.css"></noscript>
+    <noscript><link rel="stylesheet" href="assets/lib/owlcarousel/assets/owl.carousel.min.css"></noscript>
+    <noscript><link rel="stylesheet" href="assets/css/style_1.min.css"></noscript>
 
     <script>
         /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */

@@ -1,18 +1,5 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, maximum-scale=2">
-
-        <title>Reseller - JING, jagung emping aneka rasa</title>
-
-        <meta property="og:title" content="JING" >
-        <meta property="og:type" content="makanan.jajanan" >
-    </head>
     <body>
-        <script>
-            fbq('track', 'ViewContent');
-        </script>
-
         <section class="main-section alabaster">
             <!--main-section alabaster-start-->
             <div class="container">
