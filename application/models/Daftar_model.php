@@ -4,6 +4,7 @@ class Daftar_model extends CI_Model {
 
     function read() {
         return $this->db->get('reseller');
+//        var_dump($data);
     }
 
     function create($data, $table) {
