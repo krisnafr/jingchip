@@ -187,12 +187,13 @@
         <!--main-nav-start-->
         <div class="container">
             <ul class="main-nav">
-                <li><a href="welcome">Selamat datang JING!</a></li>
+                <li><a href="https://jingchips.000webhostapp.com/">Selamat datang JING!</a></li>
+                <!--<li><a href="http://localhost/jingchip/">Selamat datang JING!</a></li>-->
                 <li><a href="about">Tentang JING!</a></li>
                 <!--<li><a href="contactform">Tentang JING!</a></li>;-->
                 <!--                    <li><a href="#service">Services</a></li>
                                     <li><a href="#Portfolio">Portfolio</a></li>-->
-                <li class="small-logo"><a href="home#top"><img src="assets/img/small-logo.webp" alt="logo-jing-kecil"></a></li>
+                <li class="small-logo"><a href="#"><img src="assets/img/small-logo.webp" alt="logo-jing-kecil"></a></li>
                 <li><a href="home">Rumah JING!</a></li>
                 <li><a href="reseller">Jadi Mitra JING!</a></li>
                 <!--                    <li><a href="#team">Team</a></li>

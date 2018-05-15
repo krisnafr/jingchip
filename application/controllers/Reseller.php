@@ -60,14 +60,14 @@ class Reseller extends CI_Controller {
             'instagram' => $instagram
         );
 
-        $this->form_validation->set_rules('nama', 'Nama Lengkap', 'trim|required|alpha_numeric_spaces|max_length[50]');
-        $this->form_validation->set_rules('email', 'Alamat Email', 'trim|required|valid_email|max_length[50]');
-        $this->form_validation->set_rules('dob', 'Tanggal Lahir', 'trim|required');
-        $this->form_validation->set_rules('kota', 'Kota', 'trim|required|max_length[50]');
-        $this->form_validation->set_rules('alasan', 'Alasan', 'trim|required');
-        $this->form_validation->set_rules('wa', 'Nomor WhatsApp', 'trim|required|is_natural|max_length[50]');
-        $this->form_validation->set_rules('line', 'ID LINE', 'trim|alpha_dash|max_length[50]');
-        $this->form_validation->set_rules('ig', 'Instagram', 'trim|alpha_dash|max_length[50]');
+        $this->form_validation->set_rules('nama', 'Nama Lengkap', 'trim|required|alpha_numeric_spaces|max_length[50]|xss_clean');
+        $this->form_validation->set_rules('email', 'Alamat Email', 'trim|required|valid_email|max_length[50]|xss_clean');
+        $this->form_validation->set_rules('dob', 'Tanggal Lahir', 'trim|required|xss_clean');
+        $this->form_validation->set_rules('kota', 'Kota', 'trim|required|max_length[50]|xss_clean');
+        $this->form_validation->set_rules('alasan', 'Alasan', 'trim|required|xss_clean');
+        $this->form_validation->set_rules('wa', 'Nomor WhatsApp', 'trim|required|is_natural|max_length[50]|xss_clean');
+        $this->form_validation->set_rules('line', 'ID LINE', 'trim|alpha_dash|max_length[50]|xss_clean');
+        $this->form_validation->set_rules('ig', 'Instagram', 'trim|alpha_dash|max_length[50]|xss_clean');
 
         if ($this->form_validation->run() == FALSE) {
             $this->load->view('daftar');
@@ -124,17 +124,16 @@ class Reseller extends CI_Controller {
         $where = array(
             'id' => $id
         );
-        $this->form_validation->set_rules('nama', 'Nama Lengkap', 'trim|required|alpha_numeric_spaces|max_length[50]');
-        $this->form_validation->set_rules('email', 'Alamat Email', 'trim|required|valid_email|max_length[50]');
-        $this->form_validation->set_rules('dob', 'Tanggal Lahir', 'trim|required');
-        $this->form_validation->set_rules('kota', 'Kota', 'trim|required|max_length[50]');
-        $this->form_validation->set_rules('alasan', 'Alasan', 'trim|required');
-        $this->form_validation->set_rules('wa', 'Nomor WhatsApp', 'trim|required|is_natural|max_length[50]');
-        $this->form_validation->set_rules('line', 'ID LINE', 'trim|alpha_dash|max_length[50]');
-        $this->form_validation->set_rules('ig', 'Instagram', 'trim|alpha_dash|max_length[50]');
+        $this->form_validation->set_rules('nama', 'Nama Lengkap', 'trim|required|alpha_numeric_spaces|max_length[50]|xss_clean');
+        $this->form_validation->set_rules('email', 'Alamat Email', 'trim|required|valid_email|max_length[50]|xss_clean');
+        $this->form_validation->set_rules('dob', 'Tanggal Lahir', 'trim|required|xss_clean');
+        $this->form_validation->set_rules('kota', 'Kota', 'trim|required|max_length[50]|xss_clean');
+        $this->form_validation->set_rules('alasan', 'Alasan', 'trim|required|xss_clean');
+        $this->form_validation->set_rules('wa', 'Nomor WhatsApp', 'trim|required|is_natural|max_length[50]|xss_clean');
+        $this->form_validation->set_rules('line', 'ID LINE', 'trim|alpha_dash|max_length[50]|xss_clean');
+        $this->form_validation->set_rules('ig', 'Instagram', 'trim|alpha_dash|max_length[50]|xss_clean');
 
         if ($this->form_validation->run() == FALSE) {
-//            $this->load->view('edit/' . $id);
             redirect('reseller/edit/' . $id);
         } else {
             $this->security->xss_clean($data);
